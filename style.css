@@ -56,8 +56,9 @@ a:hover {
     height: auto; /* Maintain the aspect ratio */
 }
 .menu-logo {
+    display: block;
     margin: 0 auto; /* Center the logo horizontally */
-    width: 20%; /* Set the logo size to 20% of the container width */
+    max-width: 25%; /* Set the logo size to 25% of the container width */
     height: auto; /* Maintain the aspect ratio */
 }
 
