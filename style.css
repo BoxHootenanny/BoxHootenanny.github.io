@@ -1,17 +1,69 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #121212; /* Windows 11 dark mode background color */
+    background-image: url('bg.png'); /* Set the background image */
+    background-color: #121212; /* Set a background color as fallback */
+    background-size: cover; /* Ensure the background image covers the entire body */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-position: center top; /* Align the top of the background with the top of the body */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
     color: #ffffff; /* Windows 11 dark mode text color */
+    height: 600px;
 }
-
 .container {
     max-width: 600px;
     margin: 50px auto;
     text-align: center;
 }
 
+header {
+    background-color: #121212; /* Windows 11 dark mode background color */
+    color: #ffffff; /* Windows 11 dark mode text color */
+    text-align: center;
+    padding: 20px 0;
+    position: relative; /* Ensure relative positioning for z-index */
+    z-index: 1; /* Ensure the header is above the background image */
+}
+
+nav {
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #03a9f4;
+}
+
+.clan-logo {
+    display: block;
+    margin: 0 auto; /* Center the logo horizontally */
+    max-width: 25%; /* Set the logo size to 25% of the container width */
+    height: auto; /* Maintain the aspect ratio */
+}
+.menu-logo {
+    margin: 0 auto; /* Center the logo horizontally */
+    max-width: 20%; /* Set the logo size to 20% of the container width */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+
 h1 {
-    color: #03a9f4; /* Windows 11 blue color */
+    margin-top: 10px;
 }
 
 button {
@@ -33,4 +85,15 @@ ul {
 
 li {
     margin: 5px 0;
+}
+
+footer {
+    background-color: #121212; /* Windows 11 dark mode background color */
+    color: #ffffff; /* Windows 11 dark mode text color */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1; /* Ensure the footer is above the background image */
 }

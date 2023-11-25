@@ -13,6 +13,9 @@ function generateMapList() {
         const listItem = document.createElement('li');
         listItem.textContent = shuffledMaps[i];
         mapList.appendChild(listItem);
+
+        // Add a line break after each list item
+        mapList.appendChild(document.createElement('br'));
     }
 }
 
