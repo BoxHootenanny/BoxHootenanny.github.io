@@ -57,7 +57,7 @@ a:hover {
 }
 .menu-logo {
     margin: 0 auto; /* Center the logo horizontally */
-    max-width: 20%; /* Set the logo size to 20% of the container width */
+    max-width: 150px; /* Set the logo size to 20% of the container width */
     height: auto; /* Maintain the aspect ratio */
 }
 
