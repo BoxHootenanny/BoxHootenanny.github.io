@@ -1,7 +1,4 @@
-const maps = [
-    'Afghan', 'Derail', 'Estate', 'Favela', 'Highrise', 'Invasion', 'Karachi', 'Quarry', 'Rust', 'Rundown',
-    'Scrapyard', 'Skidrow', 'Sub Base', 'Terminal', 'Underpass', 'Wasteland'
-];
+const maps = ['Afghan', 'Alley', 'Blacksite', 'Derail', 'Estate', 'Exhibit', 'Favela', 'Greece', 'Highrise', 'Invasion', 'Karachi', 'Meat', 'Quarry', 'Rust', 'Rundown', 'Scrapyard', 'Shipment', 'Skidrow', 'Sub Base', 'Terminal', 'Training Facility', 'Underpass', 'Wasteland'];
 
 function generateMapList() {
     const mapList = document.getElementById('mapList');
